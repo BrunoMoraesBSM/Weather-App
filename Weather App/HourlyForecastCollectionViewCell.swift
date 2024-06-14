@@ -55,6 +55,7 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
+        backgroundColor = .clear
     }
     
     required init?(coder: NSCoder) {
